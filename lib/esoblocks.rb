@@ -5,5 +5,9 @@ require "esoblocks/beatnik/interpreter"
 require "esoblocks/executor"
 
 module Esoblocks
-  # Your code goes here...
+  def esoblock(&block)
+    interpreter = Esoblocks::Beatnik::Interpreter.new
+    executor = Esoblocks::Executor.new(interpreter)
+    executor.execute(&block)
+  end
 end
