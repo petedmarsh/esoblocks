@@ -11,3 +11,7 @@ module Esoblocks
     executor.execute(&block)
   end
 end
+
+class Object
+  include Esoblocks
+end
