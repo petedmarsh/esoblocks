@@ -1,6 +1,7 @@
 # Esoblocks
 
 [![Build Status](https://travis-ci.org/petedmarsh/esoblocks.png)](https://travis-ci.org/petedmarsh/esoblocks)
+[![Code Climate](https://codeclimate.com/github/petedmarsh/esoblocks.png)](https://codeclimate.com/github/petedmarsh/esoblocks)
 
 Annoy your co-workers! Impress your friends!
 
