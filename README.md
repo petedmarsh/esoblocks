@@ -1,29 +1,23 @@
 # Esoblocks
 
-TODO: Write a gem description
+Annoy your co-workers! Impress your friends!
 
-## Installation
+Esoblocks lets you embed programs written in Beatnik in regular Ruby code.
 
-Add this line to your application's Gemfile:
+Why do this:
 
-    gem 'esoblocks'
+```ruby
+puts 'd'
+```
 
-And then execute:
+when you can do this*:
 
-    $ bundle
+```ruby
+require 'esoblocks'
 
-Or install it yourself as:
+esoblock do
+  gone away gone quickly gone quickly gone quickly gone quickly returns returns returns address address
+end
+```
 
-    $ gem install esoblocks
-
-## Usage
-
-TODO: Write usage instructions here
-
-## Contributing
-
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+_*Never actually do this_
