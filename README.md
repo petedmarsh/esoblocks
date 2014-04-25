@@ -1,5 +1,7 @@
 # Esoblocks
 
+[![Build Status](https://travis-ci.org/petedmarsh/esoblocks.png)](https://travis-ci.org/petedmarsh/esoblocks)
+
 Annoy your co-workers! Impress your friends!
 
 Esoblocks lets you embed programs written in Beatnik in regular Ruby code.
